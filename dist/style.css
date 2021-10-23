@@ -1,0 +1,46 @@
+.app {
+  position: relative;
+  width: 95vw;
+  margin: 1rem;
+  margin-left: 2.5vw;
+}
+.daily-report {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.form {
+  display: flex;
+}
+.messages {
+  padding-left: 1rem;
+}
+.message {
+  display: flex;
+  padding: 0.5rem;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  margin-right: 0.5rem;
+}
+.meta {
+  display: flex;
+}
+.user,
+.time {
+  color: #666;
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+}
+.done {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.MuiTab-root {
+  align-items: flex-start !important;
+}
+.checkbox {
+  margin-right: 0.2rem;
+}
